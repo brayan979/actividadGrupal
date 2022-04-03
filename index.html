@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="ejercicio1">
+        <div class="contenedorDiofantica">
+
+            <div class="contenedorTitulo">
+                <h2>Ecuacion Diofantica</h2>
+            </div>
+            <div class="contenedorContenidoDiofantica">
+                <label for="xDiofantica">x</label>
+                <input type="text" id="xDiofantica" value="1819">
+    
+                <label for="yDiofantica">+ y</label>
+                <input type="text" id="yDiofantica" value="29">
+    
+                <label for="cDiofantica"> = m</label>
+                <input type="text" id="cDiofantica" value="7">
+    
+                <button class="btnDiofantica">Diofantica</button>
+                <div class="resultadoDiofantica">
+    
+                </div>
+                <div class="resultadoGeneeralDiofantica">
+    
+                </div>
+            </div>
+
+
+        </div>
+        <div class="contenedorPadreChino">
+            <h2 class="tituloTeoremChino">Teorema de los restos chinos</h2>
+            <div class="contendorChino">
+                <div class="ecuacion" data-num="0">
+                    x ≡
+                    <input type="text" class="restoEcuacion" value="99">
+                    mod(
+                    <input type="text" class="moduloEcuacion"  value="65">
+                    )
+                </div>
+                <div class="ecuacion" data-num="1">
+                    x ≡
+                    <input type="text" class="restoEcuacion" value="98">
+                    mod(
+                    <input type="text" class="moduloEcuacion" value="2">
+                    )
+                </div>
+        
+            </div>
+            <button class="addEcuacion">Añadir Ecuacion</button>
+            <button class="removeEcuacion">Limpiar</button>
+        
+            <button class="btnChino">calcular</button>
+            <div class="resutadoRestoChino">
+        
+            </div>
+        </div>
+        <div class="contedorPadreRsa">
+            <div class="contendorCifradoRSA">
+                <h2 class="tituloCifradoRsa">Cifrado RSA</h2>
+
+                <div class="datos">
+                    <div class="fila1">Numero P:
+                        <input type="text" class="dato_p" value="43">
+                    </div>
+                    <div class="fila2">Numero Q:
+                        <input type="text" class="dato_q" value="59">
+                    </div>
+                    <div class="fila3"> Numero E:
+                        <input type="text" class="dato_e" value="65537">
+                    </div>
+                    <textarea id="mensaje" cols="30" rows="10"></textarea>
+                </div>
+
+                <button class="btnCifrar">Cifrar</button>
+                <div class="contendorMensajeCifrado"></div>
+            </div>
+
+
+
+            <div class="contendorDescifrado">
+                <h2>Descifrado RSA</h2>
+                <label for="mensajeCifrado">Numero D</label>
+                <input type="text" class="dato_d" value="425">
+                <label for="mensajeCifrado">Numero N</label>
+                <input type="text" class="dato_n" value="2537">
+                <label for="mensajeCifrado">Mensaje cifrado</label>
+                <input type="text" class="mensajeCifrado">
+    
+    
+                <button class="btnDescifrar">Descifrado</button>
+                <div class="contendorMensajeFinal"></div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+<script src="./main.js" type="module"></script>
+
+</html>

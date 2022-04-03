@@ -1,0 +1,92 @@
+.dNone{
+    display:none;
+} 
+body{
+    margin: 0;
+    padding: 0;
+}
+.tituloFinal{
+    text-align: center;
+}
+.contenedorDiofantica{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00BFE6;
+}
+.resultadoDiofantica{
+    padding: 10px;
+    text-align: center;
+    background-color: #0BD98A;
+    border-radius: 15px;
+    margin: 10px;
+}
+.resultadoGeneeralDiofantica{
+    text-align: center;
+    background-color: bisque;
+    border-radius: 15px;
+}
+
+.contenedorPadreChino{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #089961;
+}
+.ecuacion{
+    margin: 5px;
+}
+.removeEcuacion{
+    margin: 5px;
+}
+.btnChino{
+    margin: 5px;
+}
+.resutadoRestoChino{
+    background-color: #0BE692;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.contedorPadreRsa{
+    min-height: 100vh;
+    background-color: #F76240;
+}
+.tituloCifradoRsa{
+    margin: 0;
+    background-color: #F76240;
+    text-align: center;
+}
+.contendorCifradoRSA{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contendorDescifrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contendorMensajeFinal{
+    text-align: center;
+    background-color: #F5E269;
+    width: 90%;
+    padding: 30px;
+    border-radius: 15px;
+
+}
+.contendorMensajeCifrado{
+    background-color: #F5D39A;
+    padding: 5px;
+    border-radius: 15px;
+
+}
